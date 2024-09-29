@@ -20,4 +20,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
           
       - name: Build the Docker image
-        run: docker build -t gittodo:v1.0 .
+        run: docker build -t gittodo:v1.0 . --file Dockerfile
