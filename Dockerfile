@@ -5,7 +5,7 @@ FROM nginx:stable-alpine3.20
 WORKDIR /usr/share/nginx/html
 
 # Copy the index.html file into the container
-COPY index.html .
+COPY . .
 
 # Expose port 80 for Nginx
 EXPOSE 80
