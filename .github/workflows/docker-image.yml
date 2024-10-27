@@ -28,4 +28,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: monkeydmagnas007/git-actions:latest
+          tags: monkeydmagnas007/static:latest
